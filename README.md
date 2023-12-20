@@ -1,1 +1,1 @@
-# cloud-practitioner-cheat-sheet
+# AWS Cloud practitioner cheat sheet
