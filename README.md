@@ -7,6 +7,9 @@
   - **Infrastructure as a Service (IaaS):** ...
 
 ## AWS Support
+
+##  AWS Global Infrastructure
+
 ## Shared responsibility model
    - User
      - Patching guest OS
@@ -21,6 +24,7 @@
   - High I/O
   - Cost-effective
 - Infrastructure as a Service (IaaS)
+- Server-based
 - Support reservations to optimize costs (RI)
 - Per-second billing (Per 60 seconds)
 - Outbound and Inbound Data transfer free on the same region
@@ -41,3 +45,5 @@
   - AWS Elastic File System (EFS)
     - Mounted on multiple EC2 (Elastic Compute Cloud) instances
     - Multiple Availability Zones (AZ)
+  - Incompatible services:
+    -  VPC (Virtual Private Cloud) Endpoint Gateway
