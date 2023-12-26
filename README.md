@@ -39,7 +39,7 @@
     - Available at up to a 90% discount
   - Dedicated Host
     - Allows server-bound software licenses
-    - Bring Your Own License (BYOL)
+      - Bring Your Own License (BYOL)
 - Shared responsibility model
   - User:
     - Patching guest OS
@@ -52,7 +52,7 @@
   - AWS AWS Elastic Load Balancing (ELB): Distribute incoming traffic across EC2 instances
   - AWS Compute Optimizer: Identify optimal resource configuration
   - AWS Inspector:
-    - Run on multiple instances 
+    - Multiple instances 
     - Run timely security assessments
     - Check for OS vulnerabilities
   - AWS Elastic Block Store (EBS)
