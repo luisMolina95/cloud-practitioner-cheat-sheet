@@ -29,6 +29,7 @@
 - Support reservations to optimize costs (RI)
 - Per-second billing (Per 60 seconds)
 - Outbound and Inbound Data transfer free on the same region
+- Always paid / Never free
 - Instance types
   - Reserved Instance (RI)
     - Lowest possible long-term cost
@@ -51,8 +52,9 @@
   - AWS X-Ray: Track traces
   - AWS AWS Elastic Load Balancing (ELB): Distribute incoming traffic across EC2 instances
   - AWS Compute Optimizer: Identify optimal resource configuration
+  - AWS Global Accelerator: Provides static IP addresses for availability and performance
   - AWS Inspector:
-    - Multiple instances 
+    - Runs multiple instances
     - Run timely security assessments
     - Check for OS vulnerabilities
   - AWS Elastic Block Store (EBS)
@@ -65,5 +67,6 @@
     - Append data to existing files
   - AWS Organizations
     - Share EC2 (Elastic Compute Cloud) reserved instances between accounts
+  - AWS Auto Scaling: Scale in and out instances to match demand
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
