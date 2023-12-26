@@ -3,6 +3,8 @@
 ## Technical glossary
 - **Fault tolerant:** If the program fails, or something is lost and gets reloaded it keeps working
 - **I/O:** Input/Output
+- **Scale up (horizontal scaling)**: Adding more computers to the system
+- **Scale out (vertical scaling)**: Adding more resources (like CPU, RAM) to a single computer
 - Cloud Computing Models:
   - **Infrastructure as a Service (IaaS):** ...
 
@@ -35,7 +37,10 @@
 - Per-second billing (Per 60 seconds)
 - Outbound and Inbound Data transfer free on the same region
 - Always paid / Never free
-- Vanilla runs manual deployment
+- Manual deployment as a standalone service
+- Regional service / Not global
+- Access to the underlying operating system
+- Resizable compute capacity
 - Instance types
   - Reserved Instance (RI)
     - Lowest possible long-term cost
@@ -62,10 +67,15 @@
   - AWS AWS Elastic Load Balancing (ELB): Distribute incoming traffic across EC2 instances
   - AWS Compute Optimizer: Identify optimal resource configuration
   - AWS Global Accelerator: Provides static IP addresses for availability and performance
-  - AWS Inspector:
-    - Runs multiple instances
+  - AWS Local Zones: Stay closer to users
+  - AWS CloudWatch
+    - Monitor RAM & CPU usage
+    - Set alarms
+  - AWS Inspector
+    - Runs on multiple instances
     - Run timely security assessments
     - Check for OS vulnerabilities
+    - Assess vulnerabilities and deviations from best practices
   - AWS Elastic Block Store (EBS)
     - Attached to a single EC2 (Elastic Compute Cloud) instance
     - Same Availability Zone (AZ) only
@@ -79,3 +89,4 @@
   - AWS Auto Scaling: Scale in and out instances to match demand
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
+    -  Docker & Containers
