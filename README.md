@@ -24,12 +24,18 @@
   - High I/O
   - Cost-effective
   - Append data to existing files
+- Security group
+  - Virtual firewall to control incoming and outgoing traffic
+  - Inbound rules / Outbound rules
+  - Only "allow" rules
+  - Cannot block based on geographies
 - Infrastructure as a Service (IaaS)
 - Server-based
 - Support reservations to optimize costs (RI)
 - Per-second billing (Per 60 seconds)
 - Outbound and Inbound Data transfer free on the same region
 - Always paid / Never free
+- Vanilla runs manual deployment
 - Instance types
   - Reserved Instance (RI)
     - Lowest possible long-term cost
