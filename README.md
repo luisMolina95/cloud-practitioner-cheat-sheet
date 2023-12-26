@@ -26,6 +26,7 @@
   - High I/O
   - Cost-effective
   - Append data to existing files
+  - Reommended for buffers, caching or temporary storage
 - Security group
   - Virtual firewall to control incoming and outgoing traffic
   - Inbound rules / Outbound rules
@@ -52,6 +53,7 @@
     - Uninterrupted
   - Spot Instance
     - Available at up to a 90% discount
+    - For flexible tasks that can be interrupted
   - Dedicated Host
     - Allows server-bound software licenses
       - Bring Your Own License (BYOL)
