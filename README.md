@@ -42,6 +42,9 @@
     - Never interrupted
     - Most cost-effective payment option: Partial upfront payment option with standard 3-years term
   - On-Demand Instance
+    - Flexible / No long term commitment
+    - No upfront payment
+    - Uninterrupted
   - Spot Instance
     - Available at up to a 90% discount
   - Dedicated Host
