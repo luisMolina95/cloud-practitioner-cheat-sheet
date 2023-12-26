@@ -32,18 +32,29 @@
   - Reserved Instance (RI)
     - Lowest possible long-term cost
     - Never interrupted
+    - Most cost-effective payment option: Partial upfront payment option with standard 3-years term
   - On-Demand Instance
   - Spot Instance
+    - Available at up to a 90% discount
   - Dedicated Host
+- Shared responsibility model
+  - Patching guest OS
 - Compatible services:
   - AWS Shield Advanced: Network protection
   - AWS Systems Manager: Group resources
   - AWS X-Ray: Track traces
+  - AWS AWS Elastic Load Balancing (ELB): Distribute incoming traffic across EC2 instances
+  - AWS Inspector:
+    - Run on multiple instances 
+    - Run timely security assessments
+    - Check for OS vulnerabilities
   - AWS Elastic Block Store (EBS)
     - Attached to a single EC2 (Elastic Compute Cloud) instance
     - Same Availability Zone (AZ) only
   - AWS Elastic File System (EFS)
     - Mounted on multiple EC2 (Elastic Compute Cloud) instances
     - Multiple Availability Zones (AZ)
+  - AWS Organizations
+    - Share EC2 (Elastic Compute Cloud) reserved instances between accounts
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
