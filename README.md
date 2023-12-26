@@ -27,6 +27,7 @@
   - Cost-effective
   - Append data to existing files
   - Reommended for buffers, caching or temporary storage
+  - Block-level storage
 - Security group
   - Virtual firewall to control incoming and outgoing traffic
   - Inbound rules / Outbound rules
@@ -44,6 +45,7 @@
 - Resizable compute capacity
 - Instance types
   - Reserved Instance (RI)
+    - Discounts up to 72%
     - Lowest possible long-term cost
     - Never interrupted
     - Most cost-effective payment option: Partial upfront payment option with standard 3-years term
@@ -74,6 +76,7 @@
     - Browser-based shell and CLI
     - Provide secure shell access
   - AWS CloudWatch
+    - Server logs
     - Monitor RAM & CPU usage
     - Set alarms
   - AWS Inspector
@@ -85,13 +88,22 @@
     - Attached to a single EC2 (Elastic Compute Cloud) instance
     - Same Availability Zone (AZ) only
     - Append data to existing files
+    - Block-level storage
   - AWS Elastic File System (EFS)
     - Mounted on multiple EC2 (Elastic Compute Cloud) instances simultaneously
     - Multiple Availability Zones (AZ)
     - Append data to existing files
+    -  NFS file system
   - AWS Organizations
     - Share EC2 (Elastic Compute Cloud) reserved instances between accounts
   - AWS Auto Scaling: Scale in and out instances to match demand
+  - AWS Trusted Advisor
+    - Identify under-utilized instances
+    - Up to last 14 days
+  - AWS Cost Explorer
+    - Rightsizing feature
+      -  Identify cost-saving by downsizing or terminating instances
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
     -  Docker & Containers
+    -  Triggers
