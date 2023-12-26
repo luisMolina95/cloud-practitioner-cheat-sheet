@@ -68,6 +68,9 @@
   - AWS Compute Optimizer: Identify optimal resource configuration
   - AWS Global Accelerator: Provides static IP addresses for availability and performance
   - AWS Local Zones: Stay closer to users
+  - AWS Systems Manager Session Manager:
+    - Browser-based shell and CLI
+    - Provide secure shell access
   - AWS CloudWatch
     - Monitor RAM & CPU usage
     - Set alarms
