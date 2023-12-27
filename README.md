@@ -12,6 +12,8 @@
 
 ##  AWS Global Infrastructure
 
+## Disaster recovery (DR) strategies
+
 ## Shared responsibility model
    - User
      - Patching guest OS
@@ -33,11 +35,15 @@
   - Inbound rules / Outbound rules
   - Only "allow" rules
   - Cannot block based on geographies
+- Can scale with changing requirements
+- Launch and terminate anytime
 - Infrastructure as a Service (IaaS)
 - Server-based
 - Support reservations to optimize costs (RI)
 - Per-second billing (Per 60 seconds)
-- Outbound and Inbound Data transfer free on the same region
+- Data transfer cost
+  - Outbound and Inbound Data transfer free on the same region
+  - Data in from the internet is free
 - Always paid / Never free
 - Manual deployment as a standalone service
 - Regional service / Not global
@@ -53,9 +59,13 @@
     - Flexible / No long term commitment
     - No upfront payment
     - Uninterrupted
+    - For short-term, spiky and critical workloads
   - Spot Instance
     - Available at up to a 90% discount
     - For flexible tasks that can be interrupted
+    - Compatible with:
+      - Elastic Container Service (ECS)
+      - Elastic Container Service for Kubernetes (EKS)
   - Dedicated Host
     - Allows server-bound software licenses
       - Bring Your Own License (BYOL)
@@ -64,8 +74,10 @@
     - Patching guest OS
   - AWS
     - Replacing faulty hardware
+- EC2 Instance Connect: Connect to instance, browser based client
+- EC2 instance user data: Run a bootstrap script while launching instance
 - Compatible services:
-  - AWS Shield Advanced: Network protection
+  - AWS Shield Advanced: Network protection (DDoS attacks)
   - AWS Systems Manager: Group resources
   - AWS X-Ray: Track traces
   - AWS AWS Elastic Load Balancing (ELB): Distribute incoming traffic across EC2 instances
@@ -74,6 +86,7 @@
   - AWS Local Zones: Stay closer to users
   - AWS Config: Tracks historical configurations
   - AWS OpsWorks: Use Chef and Puppet to automate configuration
+  - AWS Budgets: Alerts on cost usage
   - AWS Systems Manager Session Manager:
     - Browser-based shell and CLI
     - Provide secure shell access
@@ -103,6 +116,7 @@
       -  Billed each time you read or write
   - AWS Organizations
     - Share EC2 (Elastic Compute Cloud) reserved instances between accounts
+    - Volume discounts
   - AWS Auto Scaling: Scale in and out instances to match demand
   - AWS Trusted Advisor
     - Identify under-utilized instances
@@ -116,9 +130,13 @@
     - Provides the information required to launch instance
     - Same region as EC2 instance
     - No preformance impact based on region
+  - AWS IAM (Identity and Access Management)
+    - Provide access to AWS services
+    - Assume Roles
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
     -  Docker & Containers
     -  Triggers
   - Availability
     - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
+    - Increase availability by deploying across different Regions
