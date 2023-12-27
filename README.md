@@ -112,9 +112,10 @@
   - AWS CodeDeploy: Automate code deployment
   - AWS Machine Image (AMI)
     - Image provider
-    - Provides the information required to launch
+    - Provides the information required to launch instance
     - Same region as EC2 instance
     - No preformance impact based on region
+  - AWS OpsWorks: Use Chef and Puppet to automate configuration
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
     -  Docker & Containers
