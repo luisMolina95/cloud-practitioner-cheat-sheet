@@ -72,6 +72,7 @@
   - AWS Compute Optimizer: Identify optimal resource configuration
   - AWS Global Accelerator: Provides static IP addresses for availability and performance
   - AWS Local Zones: Stay closer to users
+  - AWS Config: Tracks historical configurations
   - AWS Systems Manager Session Manager:
     - Browser-based shell and CLI
     - Provide secure shell access
@@ -89,11 +90,16 @@
     - Same Availability Zone (AZ) only
     - Append data to existing files
     - Block-level storage
+    - Used for Boot Volumes
+    - Snapshots are stored incrementally
+    - Billed only for the changed blocks stored
   - AWS Elastic File System (EFS)
     - Mounted on multiple EC2 (Elastic Compute Cloud) instances simultaneously
-    - Multiple Availability Zones (AZ)
+    - Multiple Availability Zones (AZ), Regions and VPCs (Virtual Private Cloud)
     - Append data to existing files
     -  NFS file system
+    -  Infrequent Access storage
+      -  Billed each time you read or write
   - AWS Organizations
     - Share EC2 (Elastic Compute Cloud) reserved instances between accounts
   - AWS Auto Scaling: Scale in and out instances to match demand
@@ -103,7 +109,15 @@
   - AWS Cost Explorer
     - Rightsizing feature
       -  Identify cost-saving by downsizing or terminating instances
+  - AWS CodeDeploy: Automate code deployment
+  - AWS Machine Image (AMI)
+    - Image provider
+    - Provides the information required to launch
+    - Same region as EC2 instance
+    - No preformance impact based on region
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
     -  Docker & Containers
     -  Triggers
+  - Availability
+    - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
