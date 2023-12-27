@@ -73,6 +73,7 @@
   - AWS Global Accelerator: Provides static IP addresses for availability and performance
   - AWS Local Zones: Stay closer to users
   - AWS Config: Tracks historical configurations
+  - AWS OpsWorks: Use Chef and Puppet to automate configuration
   - AWS Systems Manager Session Manager:
     - Browser-based shell and CLI
     - Provide secure shell access
@@ -115,7 +116,6 @@
     - Provides the information required to launch instance
     - Same region as EC2 instance
     - No preformance impact based on region
-  - AWS OpsWorks: Use Chef and Puppet to automate configuration
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
     -  Docker & Containers
