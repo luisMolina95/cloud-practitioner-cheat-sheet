@@ -52,9 +52,13 @@
 - Instance types
   - Reserved Instance (RI)
     - Discounts up to 72%
+    - Terms of 1 or 3 years
     - Lowest possible long-term cost
     - Never interrupted
     - Most cost-effective payment option: Partial upfront payment option with standard 3-years term
+    - Reserved instance type:
+      - Standard : No changes at a higher discount (up to 72%)
+      - Convertible reserved instance: Use different instance families, operating systems, or tenancies
   - On-Demand Instance
     - Flexible / No long term commitment
     - No upfront payment
@@ -72,6 +76,7 @@
 - Shared responsibility model
   - User:
     - Patching guest OS
+    - Firewall & networking configuration
   - AWS
     - Replacing faulty hardware
 - EC2 Instance Connect: Connect to instance, browser based client
@@ -87,6 +92,8 @@
   - AWS Config: Tracks historical configurations
   - AWS OpsWorks: Use Chef and Puppet to automate configuration
   - AWS Budgets: Alerts on cost usage
+  - AWS ElastiCache: Instances can cache some values to take the load off the database
+  - AWS SQS and AWS SNS: Decouple comunication between machines
   - AWS Systems Manager Session Manager:
     - Browser-based shell and CLI
     - Provide secure shell access
@@ -117,7 +124,9 @@
   - AWS Organizations
     - Share EC2 (Elastic Compute Cloud) reserved instances between accounts
     - Volume discounts
-  - AWS Auto Scaling: Scale in and out instances to match demand
+  - AWS Auto Scaling
+    - Scale in and out instances to match demand
+    - Replaces unhealthy instances
   - AWS Trusted Advisor
     - Identify under-utilized instances
     - Up to last 14 days
@@ -127,9 +136,11 @@
   - AWS CodeDeploy: Automate code deployment
   - AWS Machine Image (AMI)
     - Image provider
+    - Composed of a registered EBS snapshot
     - Provides the information required to launch instance
     - Same region as EC2 instance
     - No preformance impact based on region
+    - Can launch same image in different regions and AZs
   - AWS IAM (Identity and Access Management)
     - Provide access to AWS services
     - Assume Roles
