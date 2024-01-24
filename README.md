@@ -49,6 +49,39 @@
 - Regional service / Not global
 - Access to the underlying operating system
 - Resizable compute capacity
+- Instance optimized types
+  - Memory
+    - Fast performance for  large memory data sets
+    - Large memory size
+    - For:
+      - In-memory applications
+      - In-memory databases
+      - In-memory analytics solutions
+      - High Performance Computing (HPC)
+      - Scientific computing
+  - Compute
+    - High compute power
+    - For:
+      - High-performance web servers
+      - High-performance computing (HPC)
+      - Scientific modelling
+      - Distributed analytics
+      - Machine learning inference
+  - Storage
+    - High sequential read and write access for very large data sets
+    - For:
+      - Hadoop distributed computing
+      - Massively parallel processing data warehousing
+      - Log processing applications
+  - Accelerated computing
+    - Use hardware accelerators, or co-processors
+    - For:
+      - Floating-point number calculation
+      - Graphics processing
+    - Types:
+      - GPU compute: general-purpose computing
+      - GPU graphics: graphics-intensive applications
+      - FPGA programmable: advanced scientific workloads
 - Instance types
   - Reserved Instance (RI)
     - Discounts up to 72%
@@ -148,6 +181,7 @@
     -  VPC (Virtual Private Cloud) Endpoint Gateway
     -  Docker & Containers
     -  Triggers
+    -  AWS Web Application Firewall (AWS WAF)
   - Availability
     - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
     - Increase availability by deploying across different Regions
