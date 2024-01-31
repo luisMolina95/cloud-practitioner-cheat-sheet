@@ -35,7 +35,7 @@
   - Inbound rules / Outbound rules
   - Only "allow" rules
   - Cannot block based on geographies
-- Managed configurations
+- Needs managing configurations
 - Can scale with changing requirements
 - Launch and terminate anytime
 - Infrastructure as a Service (IaaS)
@@ -112,6 +112,16 @@
   - Dedicated Host
     - Allows server-bound software licenses
       - Bring Your Own License (BYOL)
+- Savings Plans
+  - Flexible pricing model
+  - Discounts up to 72%
+  - Independent of instance family
+  - Commitment to use a specific amount of compute power
+    - Measured in $/hour
+    - One or three-year period
+  - Types:
+    - Compute
+    - Instance
 - Shared responsibility model
   - User:
     - Patching guest OS
