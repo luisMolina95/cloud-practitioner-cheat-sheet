@@ -35,6 +35,7 @@
   - Inbound rules / Outbound rules
   - Only "allow" rules
   - Cannot block based on geographies
+- Managed configurations
 - Can scale with changing requirements
 - Launch and terminate anytime
 - Infrastructure as a Service (IaaS)
@@ -45,6 +46,11 @@
   - Outbound and Inbound Data transfer free on the same region
   - Data in from the internet is free
 - Always paid / Never free
+- AWS Free Tier
+  - Paid
+  - 12 Months free
+  - 750 Hours per month
+  - t2.micro or t3.micro
 - Manual deployment as a standalone service
 - Regional service / Not global
 - Access to the underlying operating system
@@ -127,6 +133,7 @@
   - AWS Budgets: Alerts on cost usage
   - AWS ElastiCache: Instances can cache some values to take the load off the database
   - AWS SQS and AWS SNS: Decouple comunication between machines
+  - AWS API Gateway: Call HTTP endpoints hosted on an instance
   - AWS Systems Manager Session Manager:
     - Browser-based shell and CLI
     - Provide secure shell access
