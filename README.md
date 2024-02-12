@@ -119,9 +119,19 @@
   - Commitment to use a specific amount of compute power
     - Measured in $/hour
     - One or three-year period
+    - Recommendations by AWS Cost Explorer
   - Types:
     - Compute
+      - Reduce costs up to 66%
+      - Automatically apply to:
+        - Any EC2 instance
+        - Fargate
+        - Lambda
     - Instance
+      - Lowest prices
+      - Savings up to 72%
+      - Individual instance families
+      - In a region
 - Shared responsibility model
   - User:
     - Patching guest OS
@@ -184,6 +194,11 @@
     - Rightsizing feature
       -  Identify cost-saving by downsizing or terminating instances
   - AWS CodeDeploy: Automate code deployment
+  - Amazon EC2 Image Builder
+    - Automate server images updates
+    - Building, testing and deployment of virtual machines
+    - For AWS or on-premises
+    - Create AMI images
   - AWS Machine Image (AMI)
     - Image provider
     - Composed of a registered EBS snapshot
@@ -194,6 +209,13 @@
   - AWS IAM (Identity and Access Management)
     - Provide access to AWS services
     - Assume Roles
+  - AWS Detective: Provides detailed summaries, analyses, and visualizations of the behaviors and interactions of instances
+  - AWS Virtual Private Cloud (Amazon VPC): Control access to Amazon EC2 instances
+  - AWS CloudEndure Disaster Recovery: Disaster recovery of EC2 Instances
+  - AWS Resource Groups:
+    - Organize your AWS resource
+    - Preform bulk actions
+  - AWS Direct Connect: Access public or private resources
   - Incompatible services:
     -  VPC (Virtual Private Cloud) Endpoint Gateway
     -  Docker & Containers
