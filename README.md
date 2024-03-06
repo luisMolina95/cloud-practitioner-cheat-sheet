@@ -233,10 +233,17 @@
 - built-in security
 - in-memory caching
 - data export tools
+- Reserved Capacity
+  - Fixed read-and-write throughput
+  - Offers significant savings
 - DynamoDB Global Tables
   - Replicate data automatically
   - Supports active-active configuration
   - Cross-region support
   - Only dynamic capacity
 - DynamoDB Accelerator (DAX)
-  - 
+  - Managed service
+  - In-memory cache
+  - Improve tables read performance by up to 10 times
+- Compatible services:
+  - VPC Endpoint Gateway: private connection from a VPC
