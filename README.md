@@ -224,3 +224,19 @@
   - Availability
     - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
     - Increase availability by deploying across different Regions
+
+## DynamoDB
+- Managed service
+- Serverless
+- NoSQL database
+- Run high-performance applications at any scale
+- built-in security
+- in-memory caching
+- data export tools
+- DynamoDB Global Tables
+  - Replicate data automatically
+  - Supports active-active configuration
+  - Cross-region support
+  - Only dynamic capacity
+- DynamoDB Accelerator (DAX)
+  - 
