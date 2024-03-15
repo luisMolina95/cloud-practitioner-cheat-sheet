@@ -232,7 +232,8 @@
   - Flexible schema
   - key-value and document data models
 - Run high-performance applications at any scale
-- built-in security
+- Built-in security
+  - IAM roles
 - Platform as a Service (PaaS)
 - in-memory caching
 - data export tools
@@ -254,5 +255,7 @@
   - Managed service
   - In-memory cache
   - Improve tables read performance by up to 10 times
+- DynamoDB Streams
+  - Trigger events when data changes
 - Compatible services:
   - VPC Endpoint Gateway: private connection from a VPC
