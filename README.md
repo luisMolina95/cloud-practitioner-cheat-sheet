@@ -229,10 +229,18 @@
 - Managed service
 - Serverless
 - NoSQL database
+  - Flexible schema
+  - key-value and document data models
 - Run high-performance applications at any scale
 - built-in security
 - in-memory caching
 - data export tools
+- Always paid / Never free
+- AWS Free Tier
+  - 25 GB Free
+  - 25 provisioned Write Capacity Units (WCU)
+  - 25 provisioned Read Capacity Units (RCU)
+  - Enough to handle up to 200M requests per month
 - Reserved Capacity
   - Fixed read-and-write throughput
   - Offers significant savings
