@@ -233,6 +233,7 @@
   - key-value and document data models
 - Run high-performance applications at any scale
 - built-in security
+- Platform as a Service (PaaS)
 - in-memory caching
 - data export tools
 - Always paid / Never free
