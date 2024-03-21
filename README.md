@@ -226,7 +226,7 @@
     - Increase availability by deploying across different Regions
 
 ## DynamoDB
-- Managed service
+- Fully Managed service
 - Serverless
 - NoSQL database
   - Flexible schema
@@ -259,3 +259,4 @@
   - Trigger events when data changes
 - Compatible services:
   - VPC Endpoint Gateway: private connection from a VPC
+  - AWS CloudWatch: Monitor tables
