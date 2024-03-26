@@ -226,6 +226,38 @@
     - Increase availability by deploying across different Regions
 
 ## Amazon RDS (Relational Database Service)
+- Better performance than customer managed
+- Relational database in the cloud
+- resizable capacity
+- automated administration tasks
+  - hardware provisioning
+  - database setup
+  - patching
+  - backups
+- Selection of optimized instance types
+  - memory
+  - performance
+  - I/O
+- Reserved Instances:
+  - Optimized cost
+  - Payment options:
+    - No Upfront
+    - Partial Upfront
+    - All Upfront
+  - Database engines:
+    - Aurora
+    - MySQL
+    - MariaDB
+    - PostgreSQL
+    - Oracle
+    - SQL Server
+- Compatible services:
+  - AWS Systems Manager: Group resources
+- Aurora
+  - fully managed
+  - relational database built for the cloud
+    - MySQL
+    - PostgreSQL
 ## DynamoDB
 - Fully Managed service
 - Serverless
