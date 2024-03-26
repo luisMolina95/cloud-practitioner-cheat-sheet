@@ -246,6 +246,7 @@
 - Reserved Capacity
   - Fixed read-and-write throughput
   - Offers significant savings
+- Dynamic Capacity: Pay what you use
 - DynamoDB Global Tables
   - Replicate data automatically
   - Supports active-active configuration
