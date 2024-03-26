@@ -225,6 +225,7 @@
     - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
     - Increase availability by deploying across different Regions
 
+## Amazon RDS (Relational Database Service)
 ## DynamoDB
 - Fully Managed service
 - Serverless
