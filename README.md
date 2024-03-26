@@ -251,13 +251,17 @@
     - PostgreSQL
     - Oracle
     - SQL Server
-- Compatible services:
-  - AWS Systems Manager: Group resources
+- Encryption:
+  - Optional feature
+  - Encrypted at rest 
 - Aurora
   - fully managed
   - relational database built for the cloud
     - MySQL
     - PostgreSQL
+- Compatible services:
+  - AWS Systems Manager: Group resources
+  - AWS Budgets: Reservation alerts
 ## DynamoDB
 - Fully Managed service
 - Serverless
