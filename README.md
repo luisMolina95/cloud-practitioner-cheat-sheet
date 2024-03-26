@@ -258,6 +258,9 @@
   - PostgreSQL
   - Oracle
   - SQL Server
+- Multi-AZ DB Instance:
+  - Standby instance in a different Availability Zone (AZ)
+  - Synchronously replicates the data to a standby instance
 - Compatible services:
   - AWS Systems Manager: Group resources
   - AWS Budgets: Reservation alerts
