@@ -229,6 +229,7 @@
 - Better performance than customer managed
 - Relational database in the cloud
 - resizable capacity
+- regional service
 - automated administration tasks
   - hardware provisioning
   - database setup
@@ -258,12 +259,23 @@
   - PostgreSQL
   - Oracle
   - SQL Server
+- Read replicas
+  - read-only copies of the master database
+  - placed in multiple regions
 - Multi-AZ DB Instance:
+  - Enhances availability
   - Standby instance in a different Availability Zone (AZ)
   - Synchronously replicates the data to a standby instance
+- Shared responsibility model
+  - User:
+    - Database encryption
+  - AWS:
+    - Applying patches
+    - Managing hardware
 - Compatible services:
   - AWS Systems Manager: Group resources
   - AWS Budgets: Reservation alerts
+  - AWS Local Zones: Place service closer to end users and workloads
 ## DynamoDB
 - Fully Managed service
 - Serverless
