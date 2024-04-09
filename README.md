@@ -228,6 +228,7 @@
 ## Amazon RDS (Relational Database Service)
 - Better performance than customer managed
 - Relational database in the cloud
+- For online-transaction processing (OLTP)
 - resizable capacity
 - regional service
 - automated administration tasks
@@ -262,6 +263,7 @@
 - Read replicas
   - read-only copies of the master database
   - placed in multiple regions
+  - improves scalability
 - Multi-AZ DB Instance:
   - Enhances availability
   - Standby instance in a different Availability Zone (AZ)
@@ -276,6 +278,7 @@
   - AWS Systems Manager: Group resources
   - AWS Budgets: Reservation alerts
   - AWS Local Zones: Place service closer to end users and workloads
+  - Amazon Kendra: Connect to search engine
 ## DynamoDB
 - Fully Managed service
 - Serverless
