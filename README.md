@@ -264,6 +264,7 @@
   - read-only copies of the master database
   - placed in multiple regions
   - improves scalability
+  - improves disaster recovery
 - Multi-AZ DB Instance:
   - Enhances availability
   - Standby instance in a different Availability Zone (AZ)
