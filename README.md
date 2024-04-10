@@ -327,6 +327,7 @@
   - Advanced:
     - Includes everything in Standar
     - Always paid / Never free
+    - Manually deployed
     - Higher protection levels
     - Application (7) layer
     - Near real-time visibility
