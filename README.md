@@ -316,3 +316,25 @@
 - Compatible services:
   - VPC Endpoint Gateway: private connection from a VPC
   - AWS CloudWatch: Monitor tables
+## AWS Shield
+  - DDoS (Distributed Denial of Service) attack protection service
+  - Always-on detection
+  - Standar:
+    - Always free
+    - Automatically on
+    - Defends against common attacks
+    - Network (3) & Transport (4) layer
+  - Advanced:
+    - Includes everything in Standar
+    - Always paid / Never free
+    - Higher protection levels
+    - Application (7) layer
+    - Near real-time visibility
+    - Integration with AWS WAF (firewall)
+    - Compatible services:
+      - Elastic Compute Cloud (EC2)
+      - Elastic Load Balancing (ELB)
+      - AWS Global Accelerator
+  - Compatible services:
+    - Amazon CloudFront
+    - Amazon Route 53
