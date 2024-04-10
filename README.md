@@ -318,6 +318,7 @@
   - AWS CloudWatch: Monitor tables
 ## AWS Shield
   - DDoS (Distributed Denial of Service) attack protection service
+  - Fully Managed
   - Always-on detection
   - Standar:
     - Always free
@@ -332,7 +333,9 @@
     - Application (7) layer
     - Cost protection against spikes
     - Near real-time visibility
+    - advanced reporting
     - Integration with AWS WAF (firewall)
+    - support from the DDoS Response Team (DRT)
     - Compatible services:
       - Elastic Compute Cloud (EC2)
       - Elastic Load Balancing (ELB)
