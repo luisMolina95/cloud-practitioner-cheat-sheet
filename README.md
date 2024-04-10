@@ -330,6 +330,7 @@
     - Manually deployed
     - Higher protection levels
     - Application (7) layer
+    - Cost protection against spikes
     - Near real-time visibility
     - Integration with AWS WAF (firewall)
     - Compatible services:
