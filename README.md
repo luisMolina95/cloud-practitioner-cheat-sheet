@@ -236,7 +236,20 @@
 - file based storage
 - accessible from Linux instances via the NFS protocol
 - stores data and metadata across multiple Availability Zones (AZ)
-- Mountable on instances across multiple Availability Zones (AZ)
+- Access across multiple:
+  - Availability Zones (AZ)
+  - Regions
+  - VPCs
+    - AWS Direct Connect
+    - AWS VPN
+- storage classes:
+  - Standard
+  - Standard-Infrequent Access (Standard-IA)
+    - dataset readily accessible
+    - Save storage costs for infrequently accessed files
+    - fee charged for each read and write
+    - satisfy data audits
+  - Archive
 - optional encryption
   - data in transit
   - encryption at rest
