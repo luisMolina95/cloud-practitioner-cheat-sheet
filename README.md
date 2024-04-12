@@ -233,6 +233,8 @@
   - Grows and Shrinking automatically as files are added and removed
 - available
 - durable
+- file based storage
+- accessible from Linux instances via the NFS protocol
 - stores data and metadata across multiple Availability Zones (AZ)
 - Mountable on instances across multiple Availability Zones (AZ)
 - optional encryption
