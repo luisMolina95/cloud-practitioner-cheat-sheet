@@ -224,7 +224,21 @@
   - Availability
     - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
     - Increase availability by deploying across different Regions
-
+## Amazon Elastic File System (Amazon EFS)
+- elastic network file system (NFS)
+- fully managed
+- scalable
+  - on-demand
+  - to petabytes
+  - Grows and Shrinking automatically as files are added and removed
+- available
+- durable
+- stores data and metadata across multiple Availability Zones (AZ)
+- Mountable on instances across multiple Availability Zones (AZ)
+- optional encryption
+  - data in transit
+  - encryption at rest
+- concurrently-accessible storage for up to thousands of Amazon EC2 instances
 ## Amazon RDS (Relational Database Service)
 - Better performance than customer managed
 - Relational database in the cloud
