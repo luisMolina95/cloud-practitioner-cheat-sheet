@@ -224,6 +224,43 @@
   - Availability
     - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
     - Increase availability by deploying across different Regions
+## Amazon Simple Storage Service (Amazon S3)
+- Object storage
+- Scalable
+- Available
+- Secure
+- Encryption: at rest is enabled by default
+- Storage classes:
+  - Standard
+    - frequently accessed data
+  - Standard-Infrequent Access (Standard-IA)
+    - Infrequently accessed data
+    - rapid access
+    - Use cases:
+      - long-term storage
+      - backups
+      - disaster recovery
+  - One zone IA
+  - Glacier
+    - low-cost
+    - slow retrival
+    - 99.999999999% durability
+    - Types:
+      - Instant retrival
+      - Flexible Retrieval
+      - Deep Archive
+        - lowest-cost
+        - longest to retrive data
+    - Use cases:
+      - data archiving
+      - long-term backup
+  - Intelligent-Tiering
+    - automatically move data to the most cost-effective tier
+- Pricing: Only charged from outbound data, internet or out of the region
+- Compatible services:
+  - AWS Systems Manager: Group resources
+  - Amazon Macie: protect your sensitive data
+  - VPC Endpoint Gateway: privately connect to VPC
 ## Amazon Elastic File System (Amazon EFS)
 - elastic network file system (NFS)
 - fully managed
