@@ -257,6 +257,7 @@
 - Compatible services:
   - AWS Direct Connect: Connect on-premises resources
   - AWS VPN connection: Connect on-premises resources
+  - AWS DataSync: copy data between services
 ## Amazon RDS (Relational Database Service)
 - Better performance than customer managed
 - Relational database in the cloud
