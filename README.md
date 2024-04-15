@@ -254,6 +254,9 @@
   - data in transit
   - encryption at rest
 - concurrently-accessible storage for up to thousands of Amazon EC2 instances
+- Compatible services:
+  - AWS Direct Connect: Connect on-premises resources
+  - AWS VPN connection: Connect on-premises resources
 ## Amazon RDS (Relational Database Service)
 - Better performance than customer managed
 - Relational database in the cloud
