@@ -233,9 +233,9 @@
   - Grows and Shrinking automatically as files are added and removed
 - available
 - durable
-- regional
 - file based storage
 - accessible from Linux instances via the NFS protocol
+- Regional service / Not global
 - stores data and metadata across multiple Availability Zones (AZ)
 - Access across multiple:
   - Availability Zones (AZ)
