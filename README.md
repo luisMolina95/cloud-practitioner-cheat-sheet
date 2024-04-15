@@ -233,6 +233,7 @@
   - Grows and Shrinking automatically as files are added and removed
 - available
 - durable
+- regional
 - file based storage
 - accessible from Linux instances via the NFS protocol
 - stores data and metadata across multiple Availability Zones (AZ)
@@ -258,6 +259,7 @@
   - AWS Direct Connect: Connect on-premises resources
   - AWS VPN connection: Connect on-premises resources
   - AWS DataSync: copy data between services
+  - AWS Transfer Family: Transfer files
 ## Amazon RDS (Relational Database Service)
 - Better performance than customer managed
 - Relational database in the cloud
