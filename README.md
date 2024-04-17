@@ -341,6 +341,8 @@
   - Enhances availability
   - Standby instance in a different Availability Zone (AZ)
   - Synchronously replicates the data to a standby instance
+- Multi-region deployment:
+  - Disaster recovery
 - Shared responsibility model
   - User:
     - Database encryption
