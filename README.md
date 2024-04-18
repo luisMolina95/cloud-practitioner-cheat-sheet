@@ -230,6 +230,12 @@
 - Available
 - Secure
 - Encryption: at rest is enabled by default
+- Always paid / Never free
+- AWS Free Tier
+  - 12 Months free
+  - 5 GB
+  - 20,000 reads
+  - 2,000 writes
 - Storage classes:
   - Standard
     - frequently accessed data
@@ -259,8 +265,10 @@
 - Pricing: Only charged from outbound data, internet or out of the region
 - Compatible services:
   - AWS Systems Manager: Group resources
+  - Amazon Athena: querying s3 using SQL
   - Amazon Macie: protect your sensitive data
   - VPC Endpoint Gateway: privately connect to VPC
+  - Amazon FSx for Lustre: saves things on s3
 ## Amazon Elastic File System (Amazon EFS)
 - elastic network file system (NFS)
 - fully managed
