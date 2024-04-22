@@ -246,7 +246,10 @@
       - long-term storage
       - backups
       - disaster recovery
-  - One zone IA
+  - One Zone-Infrequent Access
+    - rarely used
+    - immediately accessible
+    - Data loss tolerated
   - Glacier
     - low-cost
     - slow retrival
@@ -269,6 +272,7 @@
   - Amazon Macie: protect your sensitive data
   - VPC Endpoint Gateway: privately connect to VPC
   - Amazon FSx for Lustre: saves things on s3
+  - Amazon EFS: saves things on s3
 ## Amazon Elastic File System (Amazon EFS)
 - elastic network file system (NFS)
 - fully managed
