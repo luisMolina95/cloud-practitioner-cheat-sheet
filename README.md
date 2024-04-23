@@ -227,10 +227,11 @@
 ## Amazon Simple Storage Service (Amazon S3)
 - Object storage
 - deployed static website
+- abstracted
 - Scalable
 - Available
 - Secure
-- Encryption: at rest is enabled by default
+- Encryption: server side at rest is enabled by default
 - Always paid / Never free
 - AWS Free Tier
   - 12 Months free
@@ -267,6 +268,7 @@
     - Types:
       - Instant retrival
       - Flexible Retrieval
+        - data archival
       - Deep Archive
         - lowest-cost
         - longest to retrive data
@@ -283,6 +285,7 @@
   - VPC Endpoint Gateway: privately connect to VPC
   - Amazon FSx for Lustre: saves things on s3
   - Amazon EFS: saves things on s3
+  - Amazon EBS: saves snapshots on s3
   - AWS Cost & Usage Report (AWS CUR): usage and cost reports
 ## Amazon Elastic File System (Amazon EFS)
 - elastic network file system (NFS)
