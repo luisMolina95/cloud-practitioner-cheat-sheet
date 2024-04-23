@@ -226,6 +226,7 @@
     - Increase availability by deploying across different Regions
 ## Amazon Simple Storage Service (Amazon S3)
 - Object storage
+- deployed static website
 - Scalable
 - Available
 - Secure
@@ -236,6 +237,15 @@
   - 5 GB
   - 20,000 reads
   - 2,000 writes
+- Pricing: Only charged from outbound data, internet or out of the region
+- S3 cross-region replication (S3 CRR):
+  - replicate data between different AWS Regions
+  - Same AWS account or by different accounts
+- S3 same-region replication (S3 SRR): Replicate data in the same region
+- bucket policy: Set access permissions
+- Versioning: Keep variants of the same object
+- Lifecycle configuration: transition objects to other classes, achive them or delete them.
+- Transfer Acceleration (Amazon S3TA): use edge locations to transfers files over long distances 
 - Storage classes:
   - Standard
     - frequently accessed data
@@ -265,14 +275,15 @@
       - long-term backup
   - Intelligent-Tiering
     - automatically move data to the most cost-effective tier
-- Pricing: Only charged from outbound data, internet or out of the region
 - Compatible services:
+  - AWS CloudFront: improve globbal performance
   - AWS Systems Manager: Group resources
   - Amazon Athena: querying s3 using SQL
   - Amazon Macie: protect your sensitive data
   - VPC Endpoint Gateway: privately connect to VPC
   - Amazon FSx for Lustre: saves things on s3
   - Amazon EFS: saves things on s3
+  - AWS Cost & Usage Report (AWS CUR): usage and cost reports
 ## Amazon Elastic File System (Amazon EFS)
 - elastic network file system (NFS)
 - fully managed
