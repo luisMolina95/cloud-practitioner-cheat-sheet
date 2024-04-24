@@ -232,6 +232,7 @@
 - Scalable
 - Available
 - Secure
+- Block Public Access: limit access
 - Encryption: server side at rest is enabled by default
 - Always paid / Never free
 - Free transferred in from the internet
@@ -257,10 +258,12 @@
   - Standard
     - frequently accessed data
     - No minimum storage duration charge
+    - Free retrieval
   - Standard-Infrequent Access (Standard-IA)
     - Infrequently accessed data
     - rapid access
     - Minimum storage duration charge (30 days)
+    - retrieval fee per GB
     - Use cases:
       - long-term storage
       - backups
@@ -270,10 +273,12 @@
     - immediately accessible
     - Data loss tolerated
     - Minimum storage duration charge (30 days)
+    - retrieval fee per GB
   - Glacier
     - low-cost
     - slow retrival
     - 99.999999999% durability
+    - retrieval fee per GB
     - Types:
       - Instant retrival
         - Minimum storage duration charge (90 days)
@@ -290,6 +295,7 @@
   - Intelligent-Tiering
     - automatically move data to the most cost-effective tier
     - No minimum storage duration charge
+    - Free retrieval
 - Compatible services:
   - AWS CloudFront: improve globbal performance
   - AWS Systems Manager: Group resources
@@ -302,6 +308,7 @@
   - Amazon EBS: saves snapshots on s3
   - AWS Cost & Usage Report (AWS CUR): usage and cost reports
   - AWS Organizations: Volume discounts
+  - AWS Trusted Advisor: Alerts on public buckets
 ## Amazon Elastic File System (Amazon EFS)
 - elastic network file system (NFS)
 - fully managed
