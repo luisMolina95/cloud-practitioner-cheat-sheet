@@ -225,7 +225,8 @@
     - Increase availability by deploying across different Availability Zones (AZ) in the same AWS Region
     - Increase availability by deploying across different Regions
 ## Amazon Simple Storage Service (Amazon S3)
-- Object storage
+- key value based object storage
+- flat non-hierarchical structure
 - deployed static website
 - abstracted
 - Scalable
@@ -233,6 +234,8 @@
 - Secure
 - Encryption: server side at rest is enabled by default
 - Always paid / Never free
+- Free transferred in from the internet
+- Data transferred out to the same region
 - AWS Free Tier
   - 12 Months free
   - 5 GB
@@ -245,14 +248,19 @@
 - S3 same-region replication (S3 SRR): Replicate data in the same region
 - bucket policy: Set access permissions
 - Versioning: Keep variants of the same object
-- Lifecycle configuration: transition objects to other classes, achive them or delete them.
-- Transfer Acceleration (Amazon S3TA): use edge locations to transfers files over long distances 
+- Lifecycle configuration
+  - Optimize costs 
+  - Transition actions: transition to another storage class
+  - Expiration actions: deletes expired objects
+- Transfer Acceleration (Amazon S3TA): use edge locations to optimize file transfers over long distances 
 - Storage classes:
   - Standard
     - frequently accessed data
+    - No minimum storage duration charge
   - Standard-Infrequent Access (Standard-IA)
     - Infrequently accessed data
     - rapid access
+    - Minimum storage duration charge (30 days)
     - Use cases:
       - long-term storage
       - backups
@@ -261,32 +269,39 @@
     - rarely used
     - immediately accessible
     - Data loss tolerated
+    - Minimum storage duration charge (30 days)
   - Glacier
     - low-cost
     - slow retrival
     - 99.999999999% durability
     - Types:
       - Instant retrival
+        - Minimum storage duration charge (90 days)
       - Flexible Retrieval
         - data archival
+        - Minimum storage duration charge (90 days)
       - Deep Archive
         - lowest-cost
         - longest to retrive data
+        - Minimum storage duration charge (180 days)
     - Use cases:
       - data archiving
       - long-term backup
   - Intelligent-Tiering
     - automatically move data to the most cost-effective tier
+    - No minimum storage duration charge
 - Compatible services:
   - AWS CloudFront: improve globbal performance
   - AWS Systems Manager: Group resources
   - Amazon Athena: querying s3 using SQL
   - Amazon Macie: protect your sensitive data
   - VPC Endpoint Gateway: privately connect to VPC
+    - Also supports VPC Interface Endpoint
   - Amazon FSx for Lustre: saves things on s3
   - Amazon EFS: saves things on s3
   - Amazon EBS: saves snapshots on s3
   - AWS Cost & Usage Report (AWS CUR): usage and cost reports
+  - AWS Organizations: Volume discounts
 ## Amazon Elastic File System (Amazon EFS)
 - elastic network file system (NFS)
 - fully managed
